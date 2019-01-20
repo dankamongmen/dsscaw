@@ -1,17 +1,9 @@
-<!doctype html>
-<html lang="en"><link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
-<head>
-<title>Dirty South Supercomputing</title>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-11557335-11"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+
   gtag('config', 'UA-11557335-11');
 </script>
-</head>
-<body>
-the South's got somethin' to say...
-</body>
-</html>
