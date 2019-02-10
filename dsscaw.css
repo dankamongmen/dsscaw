@@ -1,0 +1,30 @@
+#hdr {
+  width: 50%;
+  margin: 0 auto;
+  font-family: 'Open Sans';
+}
+
+#hdr-ds {
+  font-family: 'Caveat';
+  font-size: 8vw;
+  text-align: center;
+}
+
+#hdr-sc {
+  font-family: 'Prosto One';
+  font-size: 4vw;
+  text-align: center;
+}
+
+#enigma {
+  font-size: 1.5vw;
+  text-align: center;
+  padding-top: 20%;
+  line-height: 1.4;
+}
+
+#ftr {
+  font-size: 1vw;
+  text-align: center;
+  padding-top: 40%;
+}
