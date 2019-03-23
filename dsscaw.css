@@ -3,7 +3,6 @@ body {
 }
 
 header {
-  width: 80%;
   margin: 0 auto;
   line-height: 3vh;
 }
@@ -22,14 +21,14 @@ header {
 }
 
 #enigma {
-  font-size: 1.5vw;
+  font-size: 1vw;
   text-align: center;
   padding-top: 20%;
   line-height: 1.4;
 }
 
 #ftr {
-  font-size: 1vw;
+  font-size: .5vw;
   text-align: center;
   padding-top: 30%;
 }
