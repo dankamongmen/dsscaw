@@ -1,21 +1,23 @@
 body {
-  font-family: 'Open Sans';
+  font-family: 'Noto Sans';
 }
 
-#hdr {
+header {
   width: 80%;
   margin: 0 auto;
+  line-height: 3vh;
 }
 
-#hdr-ds {
-  font-family: 'Caveat';
-  font-size: 8vw;
+.hdr-ds {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 3vw;
   text-align: center;
 }
 
-#hdr-sc {
+.hdr-sc {
   font-family: 'Prosto One';
-  font-size: 4vw;
+  font-size: 5vw;
   text-align: center;
 }
 
