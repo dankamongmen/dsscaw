@@ -1,0 +1,7 @@
+baseURL = "https://www.dsscaw.com/"
+languageCode = "en-us"
+title = "Dirty South Supercomputing"
+theme = "beautifulhugo"
+
+[Params]
+    commit = "https://github.com/dankamongmen/dsscaw/tree/"
