@@ -28,7 +28,9 @@ header {
 #ftr {
   font-size: .5vw;
   text-align: center;
-  padding-top: 10%;
+  position: fixed;
+  bottom: 5px;
+  width: 100%;
 }
 
 table {
