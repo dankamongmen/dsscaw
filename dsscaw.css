@@ -21,7 +21,7 @@ header {
 #enigma {
   font-size: 1vw;
   text-align: center;
-  padding-top: 10%;
+  padding-top: 5%;
   line-height: 1.4;
 }
 
@@ -29,4 +29,22 @@ header {
   font-size: .5vw;
   text-align: center;
   padding-top: 10%;
+}
+
+table {
+  margin: 1vw auto;
+  width: 80%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  padding: 1em;
+  text-align: center;
+}
+
+td {
+  padding: 1em;
+  text-align: left;
+  border: 1px solid black;
 }
