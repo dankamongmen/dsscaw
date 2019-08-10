@@ -1,2 +1,4 @@
 BingSiteAuth.xml
 .well-known
+repos/apt/debian/db/*
+repos/apt/debian/dists/*
