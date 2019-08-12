@@ -4,29 +4,32 @@ body {
 
 header {
   margin: 0 auto;
-  line-height: 5vh;
 }
 
 .hdr-ds {
   font-style: italic;
   font-weight: bold;
-  font-size: 3vw;
+  font-size: 3vh;
+  line-height: 2vh;
+  margin: 1vh;
 }
 
 .hdr-sc {
   font-family: 'Prosto One';
-  font-size: 5vw;
+  font-size: 5vh;
+  line-height: 4vh;
 }
 
 #enigma {
-  font-size: 1vw;
+  margin: 1vw auto;
+  font-size: 1.5vh;
   text-align: center;
-  padding-top: 5%;
-  line-height: 1.4;
+  padding-top: 15vh;
+  line-height: 2vh;
 }
 
 #ftr {
-  font-size: .5vw;
+  font-size: 1vw;
   text-align: center;
   position: fixed;
   bottom: 5px;
