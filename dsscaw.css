@@ -4,27 +4,35 @@ body {
 
 header {
   margin: 0 auto;
+  float: left;
+}
+
+h1 {
+	margin: 0 auto;
 }
 
 .hdr-ds {
   font-style: italic;
   font-weight: bold;
   font-size: 3vh;
-  line-height: 2vh;
-  margin: 1vh;
+  line-height: 3vh;
+  margin: 0 0 0 1vw;
+  float: left;
 }
 
 .hdr-sc {
+  float: left;
   font-family: 'Prosto One';
   font-size: 5vh;
-  line-height: 4vh;
+  line-height: 5vh;
+  clear: left;
 }
 
 #enigma {
   margin: 1vw auto;
   font-size: 1.5vh;
   text-align: center;
-  padding-top: 15vh;
+  padding-top: 25vh;
   line-height: 2vh;
 }
 
@@ -52,4 +60,10 @@ td {
   padding: 1em;
   text-align: left;
   border: 1px solid black;
+}
+
+.fleft {
+	margin: 0 5px 0 1vw;
+	float: left;
+	height: 8vh;
 }
