@@ -4,31 +4,39 @@ body {
   font-family: 'Noto Sans';
 }
 
+/* We set the height explicitly because we stuff more font-size than
+   line-height into the hdr-ds. This causes the descenders to start at the
+   end of the logo, but also to otherwise extend past the boundary box. */
 header {
   margin: 0 auto;
+  padding-left: 1vw;
   float: left;
-  padding: 0 0 0 1vw;
+  height: 16vw;
 }
 
 h1 {
 	margin: 0 auto;
 }
 
+/* height here matches sum of hdr-ds + hdr-sc */
 #logo {
-	margin: 0 5px 0 0;
+  margin-right: 1vw;
 	float: left;
 	height: 8vw;
 }
 
+/* "Dirty South" */
 .hdr-ds {
   font-style: italic;
   font-weight: bold;
   font-size: 3vw;
   line-height: 3vw;
-  margin: 0 0 0 1vw;
+  margin-left: 1vw;
   float: left;
 }
 
+/* "Supercomputing". font-size is bigger than line-height, thus ascenders and
+   descenders both spill out of the element bounding box. */
 .hdr-sc {
   float: left;
   font-family: 'Prosto One';
@@ -44,6 +52,19 @@ h1 {
   line-height: 2vh;
 }
 
+/* Main body text of a given page; mutually exclusive with #enigma. */
+#bodycopy {
+  margin-left: 16vw;
+  margin-right: auto;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  font-size: 1.5vh;
+  text-align: left;
+  line-height: 2vh;
+  width: 60vw;
+}
+
+/* Copyright text at bottom. */
 #ftr {
   font-size: 1vw;
   text-align: center;
