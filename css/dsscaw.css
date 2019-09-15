@@ -2,6 +2,8 @@
 
 body {
   font-family: 'Noto Sans';
+  background-image: linear-gradient(#eeeeee, #aaaaaa);
+  background-attachment: fixed;
 }
 
 /* We set the height explicitly because we stuff more font-size than
@@ -91,6 +93,7 @@ h1 {
 table {
   margin: 1vw auto;
   width: 80%;
+  background-color: #f0f0f0;
   border: 1px solid black;
   border-collapse: collapse;
 }
