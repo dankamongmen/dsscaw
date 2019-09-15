@@ -1,0 +1,107 @@
+@import url("normalize/normalize.css");
+
+body {
+  font-family: 'Noto Sans';
+}
+
+/* We set the height explicitly because we stuff more font-size than
+   line-height into the hdr-ds. This causes the descenders to start at the
+   end of the logo, but also to otherwise extend past the boundary box. */
+header {
+  margin: 0 auto;
+  margin-left: 1vw;
+  float: left;
+  padding-right: 0;
+  height: 8vw;
+}
+
+h1 {
+  margin: 0 auto;
+}
+
+/* height here matches sum of hdr-ds + hdr-sc */
+#logo {
+  margin-right: .5vw;
+  float: left;
+  height: 8vw;
+  padding: 0;
+}
+
+/* "Dirty South" */
+.hdr-ds {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 3vw;
+  line-height: 3vw;
+  margin-left: 1vw;
+  margin-top: 0;
+  float: left;
+  padding: 0;
+}
+
+/* "Supercomputing". font-size is bigger than line-height, thus ascenders and
+   descenders both spill out of the element bounding box. */
+.hdr-sc {
+  font-family: 'Prosto One';
+  font-size: 8vw;
+  line-height: 5vw;
+  float: left;
+  padding: 0;
+}
+
+#nav {
+  clear: both;
+  font-style: italic;
+  display: block-inline;
+  font-size: 1.5vw;
+  line-height: 1.5vw;
+  padding: 0;
+  margin: 0;
+}
+
+#enigma {
+  margin: 1vw auto;
+  text-align: center;
+  padding-top: 25vh;
+  font-size: calc(.5vh + .75em);
+  line-height: calc(.8vh + .75em);
+}
+
+/* Main body text of a given page; mutually exclusive with #enigma. */
+#bodycopy {
+  margin-left: 16vw;
+  margin-right: auto;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  text-align: justify;
+  width: 60vw;
+  font-size: calc(.5vh + .75em);
+  line-height: calc(.8vh + .75em);
+}
+
+/* Copyright text at bottom. */
+#ftr {
+  text-align: center;
+  position: fixed;
+  bottom: 5px;
+  width: 100%;
+  font-size: .75em;
+}
+
+table {
+  margin: 1vw auto;
+  width: 80%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  padding: 1em;
+  text-align: center;
+}
+
+td {
+  padding: 1em;
+  text-align: left;
+  border: 1px solid black;
+}
