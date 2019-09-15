@@ -63,8 +63,8 @@ h1 {
   margin: 1vw auto;
   text-align: center;
   padding-top: 25vh;
-  font-size: calc(.5vh + .75em);
-  line-height: calc(.8vh + .75em);
+  font-size: calc(.5vh + .5em);
+  line-height: calc(.8vh + .7em);
 }
 
 /* Main body text of a given page; mutually exclusive with #enigma. */
@@ -75,8 +75,8 @@ h1 {
   margin-bottom: 1vw;
   text-align: justify;
   width: 60vw;
-  font-size: calc(.5vh + .75em);
-  line-height: calc(.8vh + .75em);
+  font-size: calc(.5vh + .5em);
+  line-height: calc(.8vh + .7em);
 }
 
 /* Copyright text at bottom. */
@@ -85,7 +85,7 @@ h1 {
   position: fixed;
   bottom: 5px;
   width: 100%;
-  font-size: .75em;
+  font-size: .5em;
 }
 
 table {
