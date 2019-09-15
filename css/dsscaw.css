@@ -2,8 +2,12 @@
 
 body {
   font-family: 'Noto Sans';
+  background: #aaaaaa;
   background-image: linear-gradient(#eeeeee, #aaaaaa);
   background-attachment: fixed;
+  background-color: #aaaaaa;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* We set the height explicitly because we stuff more font-size than
