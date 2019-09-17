@@ -1,7 +1,7 @@
 @import url("normalize/normalize.css");
 
 html {
-  height: 100%;
+  height: 95%; /* FIXME footer is making us scroll :/ */
   box-sizing: border-box;
 }
 
@@ -123,8 +123,7 @@ td {
 #ftr {
   text-align: center;
   position: absolute;
-  margin: 5px auto;
-  bottom: 5px;
+  bottom: 1px;
   width: 100%;
   font-size: .5em;
 }
