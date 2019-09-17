@@ -22,7 +22,7 @@ body {
   position: relative; /* to be a "positioned ancestor" of footer */
   margin: 0;
   min-height: 100%;
-  padding-bottom: .5em; /* matches height of footer */
+  padding-bottom: 1em; /* doubles height of footer */
 }
 
 /* We set the height explicitly because we stuff more font-size than
