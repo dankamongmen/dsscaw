@@ -85,15 +85,6 @@ h1 {
   line-height: calc(.8vh + .7em);
 }
 
-/* Copyright text at bottom. */
-#ftr {
-  text-align: center;
-  position: fixed;
-  bottom: 5px;
-  width: 100%;
-  font-size: .5em;
-}
-
 table {
   margin: 1vw auto;
   width: 80%;
@@ -111,4 +102,13 @@ td {
   padding: 1em;
   text-align: left;
   border: 1px solid black;
+}
+
+/* Copyright text at bottom. */
+#ftr {
+  text-align: center;
+  position: fixed;
+  bottom: 5px;
+  width: 100%;
+  font-size: .5em;
 }
