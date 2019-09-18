@@ -1,7 +1,7 @@
 @import url("normalize/normalize.css");
 
 html {
-  height: 100%;
+  height: 95%; /* FIXME footer is making us scroll :/ */
   box-sizing: border-box;
 }
 
@@ -22,7 +22,7 @@ body {
   position: relative; /* to be a "positioned ancestor" of footer */
   margin: 0;
   min-height: 100%;
-  padding-bottom: .5em; /* matches height of footer */
+  padding-bottom: 1em; /* doubles height of footer */
 }
 
 /* We set the height explicitly because we stuff more font-size than
@@ -123,8 +123,7 @@ td {
 #ftr {
   text-align: center;
   position: absolute;
-  margin: 5px auto;
-  bottom: 5px;
+  bottom: 1px;
   width: 100%;
   font-size: .5em;
 }
