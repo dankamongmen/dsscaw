@@ -3,5 +3,15 @@ Label: Dirty South Supercomputing
 Codename: unstable
 Architectures: source amd64
 Components: main
-Description: Apt repository for DSSCAW
+Description: Apt repository for DSSCAW (unstable)
 SignWith: B4DED172795EB3E5
+Contents:
+
+Origin: Dirty South Supercomputing
+Label: Dirty South Supercomputing
+Codename: buster
+Architectures: source amd64
+Components: main
+Description: Apt repository for DSSCAW (buster)
+SignWith: B4DED172795EB3E5
+Contents:
