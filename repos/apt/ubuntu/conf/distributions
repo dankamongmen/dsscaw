@@ -1,8 +1,8 @@
 Origin: Dirty South Supercomputing
 Label: Dirty South Supercomputing
-Codename: focal
+Codename: groovy
 Architectures: source amd64
 Components: main
-Description: Apt repository for DSSCAW (focal)
+Description: Apt repository for DSSCAW (groovy)
 SignWith: B4DED172795EB3E5
 Contents:
